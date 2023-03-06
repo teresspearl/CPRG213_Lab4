@@ -1,0 +1,126 @@
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(173, 216, 230);
+    gap: 10px;
+}
+
+.first-flex div {
+    background-color: rgb(128, 128, 128);
+    width: 50%;
+    margin: 10px;
+}
+
+.first-flex #ffa {
+    margin-right: 0px;
+}
+
+.first-flex #ffb {
+    margin-left: 0px;
+}
+
+.second-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(173, 216, 230);
+    gap: 15px;
+}
+
+.second-flex div {
+    background-color: rgb(128, 128, 128);
+    width: 50%;
+    margin: 15px;
+}
+
+.second-flex #sfa {
+    margin-right: 0px;
+}
+
+.second-flex #sfb {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.second-flex #sfc {
+    margin-left: 0px;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(173, 216, 230);
+    gap: 12px;
+}
+
+.third-flex div {
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    border: 2px solid black;
+}
+
+.third-flex #tfa {
+    margin-right: 0px;
+    width: 50%;
+}
+
+.third-flex #tfb {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 25%;
+}
+
+.third-flex #tfc {
+    margin-left: 0px;
+    width:25%;
+}
+
+.fourth-flex {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: rgb(173, 216, 230);
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.fourth-flex div {
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    border: 2px solid black;
+    border-width: 2px;
+    gap: 12px;
+}
+
+.fourth-flex #forfa {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: calc(25% - 20px);
+}
+
+.fourth-flex #forfb {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: calc(25% - 20px);
+}
+
+.fourth-flex #forfc {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: calc(25% - 20px);
+}
+
+.fourth-flex #forfd {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: calc(25% - 20px);
+}
+
+.fourth-flex #forfe {
+    margin-top: 0px;
+    width: 100%
+}
